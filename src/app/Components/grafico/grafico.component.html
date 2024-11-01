@@ -1,0 +1,16 @@
+<div class="health-container">
+    <div class="ataque">
+            <span>{{ ataque }}</span>
+        <div class="barra-roja" [style.width]="ataque + '%'"></div> 
+        <button class="boton" (click)="Ataque()">Ataque</button>
+    </div>
+    <div class="defensa">
+        <span>{{ defensa }}</span>
+        <div class="barra-azul" [style.width]="defensa + '%'"></div> 
+        <button class="boton" (click)="Defensa()">Defensa</button>
+    </div> 
+    <div> 
+        <button (click)="toggleDarkTheme()">{{ icon }}</button>
+    </div>
+
+</div>

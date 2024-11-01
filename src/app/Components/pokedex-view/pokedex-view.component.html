@@ -1,0 +1,19 @@
+<section class="pokedex-view"> 
+    <div class="status-lights">
+        <span class="light roj"></span>
+        <span class="light am"></span>
+        <span class="light ver"></span>
+    </div>
+    <div class="container pokemon">
+        <app-pokemon [solicitarImagen]="pokemonImagen" 
+        (clickPokemon)="handelPokemon($event)"
+        (clickPokemon)="alePokemon()">
+        </app-pokemon>
+        <span class="point"></span>
+        <span class="point"></span>
+        <span class="square"></span>
+    </div>
+    <div class="container grafico">
+        <app-grafico></app-grafico>
+</div>
+</section>

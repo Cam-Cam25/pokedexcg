@@ -1,0 +1,75 @@
+.pokedex-view {
+    height: 100vh;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+    overflow: hidden;
+    gap: 28px;
+    border-radius: 40px; /* Use border-radius for all corners */
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.pokemon {
+    border-top-left-radius: 60px;
+}
+
+.grafico {
+    border-bottom-right-radius: 60px;
+}
+
+.status-lights {
+    display: flex;
+}
+
+.light {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.roj {
+    background-color: rgb(61, 7, 7);
+    }
+
+.am {
+    background-color: yellow;
+}
+
+.ver {
+    background-color: green;
+}
+
+.pokedex-view button { 
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+  .pokedex-view button:hover { 
+    background-color: blue; 
+}
+
+.imagen img {
+    width: 100px;
+}
+  

@@ -1,0 +1,77 @@
+.health-container{
+    display:flex;
+}
+
+.barra-roja{
+    height: 25px;
+    background-color: #f44336;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: width 0.3s ease;
+    width: 100%;
+  }
+ .barra-azul {
+  height: 25px;
+  background-color: #2196F3;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: width 0.3s ease;
+  width: 100%;
+  margin: 5px 20px;
+}
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 14px; 
+     margin: 5px 20px;/* Separación de 20px (2cm aprox.) */
+    cursor: pointer; 
+    border-radius: 5px;
+  }
+  .ataque button:hover {
+    background-color: #bed1b5;
+    color: black; 
+  }
+  .defensa button:hover {
+    background-color: #ebccec; /* Blue on hover */
+    color: black; 
+  }
+  .ataque {
+    margin-top: 100px;
+  }
+  .defensa {
+    margin-top: 100px;
+  }
+  body {
+    --text-color: #222;
+    --background-color: #fff;
+  }
+  
+  body.dark-theme {
+    --text-color: #fff;
+    --background-color: #222;
+  }
+  
+  body {
+    background: var(--background-color);
+  }
+  
+  h1,
+  p {
+    color: var(--text-color);
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+  }
+  
+  
+  
