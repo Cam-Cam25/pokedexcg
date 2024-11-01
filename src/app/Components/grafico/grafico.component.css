@@ -30,7 +30,7 @@
     text-decoration: none; 
     display: inline-block; 
     font-size: 14px; 
-     margin: 5px 20px;/* Separación de 20px (2cm aprox.) */
+     margin: 5px 15px;/* Separación de 20px (2cm aprox.) */
     cursor: pointer; 
     border-radius: 5px;
   }
@@ -49,11 +49,15 @@
     margin-top: 100px;
   }
   body {
+    height: 100px;
+    width: 365px;
     --text-color: #222;
     --background-color: #fff;
   }
   
   body.dark-theme {
+    height: 100px;
+    width: 365px;
     --text-color: #fff;
     --background-color: #222;
   }
@@ -69,8 +73,12 @@
   
   button {
     border: none;
+    display: block;
+    margin-top: 230px;
     background-color: transparent;
-    font-size: 50px;
+    font-size: 30px;
+    color: black;
+    position:relative;
   }
   
   
